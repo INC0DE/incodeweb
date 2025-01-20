@@ -110,6 +110,7 @@ export default {
       themes: {
         light: {
           colors: {
+            current:"#000000",
             primary: {
               DEFAULT: "#f6c75e",
               foreground: "#FFFF",

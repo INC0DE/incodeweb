@@ -12,7 +12,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Image
+  Image,
 } from "@nextui-org/react";
 
 const Header = () => {
@@ -35,9 +35,7 @@ const Header = () => {
   return (
     <Navbar
       shouldHideOnScroll
-      isBordered
       onMenuOpenChange={setIsMenuOpen}
-      className="max-w-[full]"
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -99,13 +97,7 @@ const Header = () => {
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className="w-full"
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
+              color="foreground"
               to={item.to}
               size="lg"
             >
