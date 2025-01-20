@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <HashRouter>
       <Header />
       <div className="overflow-hidden ">
         <Routes>
@@ -19,7 +19,7 @@ const App = () => {
       <div className="align-self-end">
         <Footer />
       </div>
-    </>
+    </HashRouter>
   );
 };
 
