@@ -18,11 +18,11 @@ const Services = () => {
 
       <div className="h-92">
         <ReactPlayer
+          url={loop}
           className="react-player"
           width="100%"
           height="100%"
           controls={false}
-          url={loop}
           playsinline
           volume={0}
           muted

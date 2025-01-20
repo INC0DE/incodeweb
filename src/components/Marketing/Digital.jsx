@@ -85,12 +85,13 @@ const Digital = () => {
         <ReactPlayer
           url={marketingvideo}
           className="react-player"
-          loop
-          muted
-          volume={0}
-          playing={true}
           width="100%"
           height="100%"
+          loop
+          muted
+          playsinline
+          volume={0}
+          playing={true}
         />
       </div>
     </div>

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="space-y-20 py-10">
       <div className="justify-self-center ">
-        <h1 className="text-3xl text-gray font-serif justify-self-center sm:text-4xl">
+        <h1 className="text-4xl text-gray font-serif justify-self-center">
           ¿Listo
         </h1>
         <h1 className="text-5xl justify-self-center sm:text-7xl">

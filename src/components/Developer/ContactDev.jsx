@@ -11,19 +11,20 @@ const ContactDev = () => {
         <ReactPlayer
           url={devideo}
           className="react-player"
+          width="100%"
+          height="100%"
           loop
+          playsinline
           muted
           volume={0}
           playing={true}
-          width="100%"
-          height="100%"
         />
       </div>
       <div className="justify-self-center ">
-        <h1 className="text-2xl text-gray font-serif justify-self-center">
+        <h1 className="text-4xl text-gray font-serif justify-self-center">
           ¿Quieres tu
         </h1>
-        <h1 className="text-4xl font-serif justify-self-center md:text-7xl">
+        <h1 className="text-5xl font-serif justify-self-center md:text-7xl">
           página personalizada?
         </h1>
       </div>
