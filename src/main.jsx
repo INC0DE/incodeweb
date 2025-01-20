@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
-import { BrowserRouter, createHashRouter } from "react-router-dom";
+import { BrowserRouter, createHashRouter, HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 import Us from "./pages/Us.jsx";
@@ -25,12 +25,12 @@ const router = createHashRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <NextUIProvider>
         <main>
           <App />
         </main>
       </NextUIProvider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
