@@ -41,7 +41,7 @@ const Whoare = () => {
           </p>
         </div>
         <div className="self-end justify-self-center w-2/2 lg:hidden">
-          <Image src={photohero} width={650} height={600} />
+          <Image src={photohero} width="100%"/>
         </div>
       </div>
     </div>
