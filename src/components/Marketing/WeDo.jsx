@@ -15,8 +15,8 @@ const WeDo = () => {
             <div>
               <h1 className="text-2xl">Manejo de redes sociales.</h1>
               <ul className="list-disc">
-                <li> Programacion de Contenido</li>
-                <li> Pubicacion de contenido</li>
+                <li> Programación de contenido.</li>
+                <li> Publicación de contenido.</li>
               </ul>
             </div>
           </div>
@@ -28,7 +28,7 @@ const WeDo = () => {
               <h1 className="text-2xl">Estrategia del contenido.</h1>
               <ul className="list-disc">
                 <li> Propuesta visual del contenido.</li>
-                <li>Marketing digital y análisis de mercado</li>
+                <li>Marketing digital y análisis de mercado.</li>
               </ul>
             </div>
           </div>
@@ -52,7 +52,7 @@ const WeDo = () => {
               <h1 className="text-2xl">Creador Digital Fotográfico </h1>
               <ul className="list-disc">
                 <li> Fotografías originales de producto y localidad.</li>
-                <li>Toma audiovisual originales de producto y localidad</li>
+                <li>Toma audiovisual originales de producto y localidad.</li>
               </ul>
             </div>
           </div>

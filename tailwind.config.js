@@ -26,6 +26,7 @@ export default {
     },
     colors: {
       white: "#E4E4E7",
+      whitelight: "#FFFFFF",
       blue: "#006FEE",
       purple: "#7e5bef",
       pink: "#ff49db",

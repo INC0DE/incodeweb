@@ -18,14 +18,16 @@ const Services = () => {
 
       <div className="h-92">
         <ReactPlayer
-          url={loop}
-          volume={0}
-          muted
           className="react-player"
-          loop
-          playing={true}
           width="100%"
           height="100%"
+          controls={false}
+          url={loop}
+          playsinline
+          volume={0}
+          muted
+          loop
+          playing={true}
         />
       </div>
 
@@ -49,7 +51,7 @@ const Services = () => {
           <div className="self-end pt-3 pr-3">
             <Link to="/Website">
               <div className="w-32 h-12 bg-gold rounded-full pl-8 pt-3">
-                <p className="self-center text-white">Ver más.</p>
+                <p className="self-center text-whitelight">Ver más.</p>
               </div>
             </Link>
           </div>
@@ -73,7 +75,7 @@ const Services = () => {
           <div className="self-end pt-3 pr-3">
             <Link to="/Marketing">
               <div className="w-32 h-12 bg-gold rounded-full pl-8 pt-3">
-                <p className="self-center text-white">Ver más.</p>
+                <p className="self-center text-whitelight">Ver más.</p>
               </div>
             </Link>
           </div>

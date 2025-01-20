@@ -10,7 +10,7 @@ const Thechnologies = () => {
           Nuestras
         </h1>
         <h1 className="text-5xl font-serif justify-self-center md:text-7xl">
-          Tecnologias.
+          Tecnologías.
         </h1>
       </div>
 
