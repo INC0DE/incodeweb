@@ -1,5 +1,4 @@
 import ReactDOM from "react-dom/client";
-import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
 import { HashRouter as Router } from "react-router-dom";
 import "./index.css";
