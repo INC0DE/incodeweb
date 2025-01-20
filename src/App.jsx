@@ -7,19 +7,21 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <HashRouter>
-      <Header />
-      <div className="overflow-hidden ">
-        <Routes>
-          <Route path="/" element={<Us />} />
-          <Route path="/Website" element={<Developer />} />
-          <Route path="/Marketing" element={<Marketing />} />
-        </Routes>
-      </div>
-      <div className="align-self-end">
-        <Footer />
-      </div>
-    </HashRouter>
+    <>
+      <HashRouter>
+        <Header />
+        <div className="overflow-hidden ">
+          <Routes>
+            <Route path="/" element={<Us />} />
+            <Route path="/Website" element={<Developer />} />
+            <Route path="/Marketing" element={<Marketing />} />
+          </Routes>
+        </div>
+        <div className="align-self-end">
+          <Footer />
+        </div>
+      </HashRouter>
+    </>
   );
 };
 
