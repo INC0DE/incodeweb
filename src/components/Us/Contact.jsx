@@ -4,8 +4,8 @@ import FormAll from "../FormAll";
 
 const Contact = () => {
   return (
-    <div className="space-y-20 py-10 justify-center">
-      <div className="justify-self-center ">
+    <div className="space-y-20 py-10 justify-items-center">
+      <div className="justify-self-center">
         <h1 className="text-4xl text-gray font-serif justify-self-center">
           ¿Listo
         </h1>
