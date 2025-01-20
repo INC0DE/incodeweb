@@ -28,7 +28,7 @@ const FormAll = () => {
       <Form
         ref={form}
         onSubmit={sendEmail}
-        className="w-64 max-w-80 flex flex-col gap-4"
+        className="w-60 max-w-80 flex flex-col gap-4 md:w-64"
         validationBehavior="native"
       >
         <Input

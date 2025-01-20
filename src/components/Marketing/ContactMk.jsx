@@ -14,7 +14,7 @@ const ContactMk = () => {
       </div>
 
       <div className="justify-items-center">
-        <Card className="w-72 h-72 p-10 items-center sm:w-80">
+        <Card className="w-64 h-72 p-10 items-center sm:w-80">
           <FormAll />
         </Card>
       </div>
