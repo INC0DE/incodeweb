@@ -48,9 +48,7 @@ const Services = () => {
           </div>
           <div className="self-end pt-3 pr-3">
             <Link to="/Website">
-              <div
-                className="w-32 h-12 bg-gold rounded-full pl-8 pt-3"
-              >
+              <div className="w-32 h-12 bg-gold rounded-full pl-8 pt-3">
                 <p className="self-center text-white">Ver más.</p>
               </div>
             </Link>
@@ -74,9 +72,9 @@ const Services = () => {
           </div>
           <div className="self-end pt-3 pr-3">
             <Link to="/Marketing">
-              <Button className="w-32" color="primary" size="lg" radius="full">
-                Ver más.
-              </Button>
+              <div className="w-32 h-12 bg-gold rounded-full pl-8 pt-3">
+                <p className="self-center text-white">Ver más.</p>
+              </div>
             </Link>
           </div>
         </Card>
