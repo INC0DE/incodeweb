@@ -24,7 +24,7 @@ const ContactDev = () => {
         <h1 className="text-4xl text-gray font-serif justify-self-center">
           ¿Quieres tu
         </h1>
-        <h1 className="text-5xl font-serif justify-self-center md:text-7xl">
+        <h1 className="text-4xl font-serif justify-self-center md:text-7xl">
           página personalizada?
         </h1>
       </div>
