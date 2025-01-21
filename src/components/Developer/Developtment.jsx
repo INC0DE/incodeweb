@@ -51,7 +51,7 @@ const Design = () => {
           así como también una escalabilidad y soporte de página.
         </p>
       </div>
-      <div className="self-center justify-self-center rounded-2xl p-10 xl:w-1/2 justify-items-end ">
+      <div className="justify-self-center self-center rounded-2xl p-10 xl:w-1/2 justify-items-end ">
         <IconCloud images={images} />
       </div>
     </div>
