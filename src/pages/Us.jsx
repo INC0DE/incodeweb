@@ -7,8 +7,8 @@ const Us = () => {
   return (
     <div className="">
       <Hero />
-      <Whoare />
       <Services />
+      <Whoare />
       <Contact />
     </div>
   );

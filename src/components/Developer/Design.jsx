@@ -1,4 +1,4 @@
-import { Image} from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import { image1 } from "../../assets";
 
 const Design = () => {
@@ -20,7 +20,7 @@ const Design = () => {
           objetivo principal es garantizar que los usuarios puedan interactuar
           de manera efectiva.
         </p>
-        <div className="self-center justify-self-center lg:hidden">
+        <div className="justify-self-center self-center lg:hidden">
           <Image className="scale-100" src={image1} width="100%" />
         </div>
       </div>
