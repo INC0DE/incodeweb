@@ -35,11 +35,13 @@ const Digital = () => {
           </div>
           <div className="md:self-end pt-8 pr-3">
             <p className="text-sm text-left md:w-80 lg:text-lg xl:text-justify">
-              Como diseñador digital, nos encargamos de crear el contenido
-              visual como imágenes, videos y animaciones adaptados para
-              plataformas sociales como Instagram, Facebook, etc. Buscamos
-              captar la atención, transmitir mensaje de marca e impulsar la
-              interacción, según tendencias y estrategias específicas.
+              Gestionamos estrategias digitales para potenciar ventas y
+              fortalecer la identidad de tu negocio en redes sociales. Creamos
+              contenido único adaptado a tendencias, ofreciendo soluciones
+              creativas en diseño visual, branding, marketing digital y
+              contenido multimedia. Nuestro objetivo es mejorar la interacción
+              del usuario, generando resultados tangibles con estética y
+              funcionalidad.
             </p>
           </div>
         </Card>
