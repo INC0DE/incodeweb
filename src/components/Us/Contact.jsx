@@ -4,7 +4,7 @@ import FormAll from "../FormAll";
 
 const Contact = () => {
   return (
-    <div className="w-full space-y-20 py-10 ">
+    <div className="space-y-20 py-10">
       <div className="justify-self-center">
         <h1 className="justify-self-center text-4xl text-gray">
           ¿Listo 
@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
 
       <div className="justify-items-center">
-        <Card className="items-center w-64 h-72 p-10 sm:w-80 ">
+        <Card className=" items-center w-64 h-72 p-10 sm:w-80 ">
           <FormAll />
         </Card>
       </div>
