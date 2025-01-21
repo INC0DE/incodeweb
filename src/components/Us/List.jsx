@@ -59,7 +59,7 @@ let notifications = [
   {
     name: "Camila Pacheco.",
     description:
-      "Su trabajo realmente marca la diferencia. ¡Sin duda una de las mejores opciones!ƒ",
+      "Su trabajo realmente marca la diferencia. ¡Sin duda una de las mejores opciones!",
     time: "30m ago",
     icon: "👤",
     color: "#1E86FF",

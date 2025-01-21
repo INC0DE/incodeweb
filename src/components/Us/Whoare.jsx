@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react";
 
 const Whoare = () => {
   return (
-    <div className="max-h-full md:flex min-h-96">
+    <div className="max-h-full bg-white md:flex min-h-96">
       <div className="self-end hidden w-1/2 lg:block">
         <Image src={photohero} width={650} height={600} />
       </div>
