@@ -35,11 +35,11 @@ const Digital = () => {
           </div>
           <div className="md:self-end pt-8 pr-3">
             <p className="text-sm text-left md:w-80 lg:text-lg xl:text-justify">
-              Un diseñador digital para redes sociales crea contenidos visuales
-              como imágenes, videos y animaciones adaptados a plataformas como
-              Instagram o Facebook, etc. Buscamos captar la atención, transmitir
-              mensajes de marca e impulsar la interacción, según tendencias y
-              estrategias específicas.
+              Como diseñador digital, nos encargamos de crear el contenido
+              visual como imágenes, videos y animaciones adaptados para
+              plataformas sociales como Instagram, Facebook, etc. Buscamos
+              captar la atención, transmitir mensaje de marca e impulsar la
+              interacción, según tendencias y estrategias específicas.
             </p>
           </div>
         </Card>
@@ -62,11 +62,11 @@ const Digital = () => {
           </div>
           <div className="md:self-end pt-8 pr-3">
             <p className="text-sm text-left md:w-80 lg:text-lg xl:text-justify ">
-              Un creador digital fotográfico para redes sociales se especializa
-              en capturar y editar imágenes atractivas, adaptándolas a las
-              tendencias y características de cada plataforma. Aseguramos
-              coherencia con la marca y buscamos maximizar la interacción e
-              impacto visual en el público.
+              Como creador digital fotográfico para redes sociales nos
+              especializamos en capturar y editar imágenes y videos atractivos,
+              adaptándolos a las tendencias y características de cada
+              plataforma. Aseguramos coherencia con la marca y buscamos
+              maximizar la interacción e impacto visual en el público.
             </p>
           </div>
         </Card>
