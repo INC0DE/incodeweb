@@ -8,7 +8,7 @@ import ContactDev from "../components/Developer/ContactDev";
 
 const Developer = () => {
   return (
-    <div className="justify-items-center">
+    <div className="">
       <Hero />
       <Developtment />
       <Thechnologies />

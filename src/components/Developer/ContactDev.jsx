@@ -21,16 +21,16 @@ const ContactDev = () => {
         />
       </div>
       <div className="justify-self-center ">
-        <h1 className="text-4xl text-gray font-serif justify-self-center">
+        <h1 className="justify-self-center text-4xl text-gray font-serif">
           ¿Quieres tu
         </h1>
-        <h1 className="text-4xl font-serif justify-self-center md:text-7xl">
+        <h1 className="justify-self-center text-4xl font-serif md:text-7xl">
           página personalizada?
         </h1>
       </div>
 
       <div className="justify-items-center">
-        <Card className="w-64 h-72 p-10 items-center sm:w-80">
+        <Card className="items-center w-64 h-72 p-10 sm:w-80">
           <FormAll />
         </Card>
       </div>

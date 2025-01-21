@@ -38,8 +38,8 @@ const Design = () => {
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
   );
   return (
-    <div className="max-h-full justify-center p-10 lg:h-80 xl:flex">
-      <div className="space-y-5 content-center xl:w-2/3 ">
+    <div className="justify-center max-h-full  p-10 lg:h-80 xl:flex">
+      <div className="content-center space-y-5  xl:w-2/3 ">
         <h1 className="text-6xl">Desarrollo</h1>
         <h1 className="font-bold text-5xl">Web.</h1>
 
@@ -51,8 +51,8 @@ const Design = () => {
           así como también una escalabilidad y soporte de página.
         </p>
       </div>
-      <div className="rounded-2xl p-10 self-center justify-self-center xl:w-1/2 justify-items-end ">
-        <IconCloud  images={images} />
+      <div className="self-center justify-self-center rounded-2xl p-10 xl:w-1/2 justify-items-end ">
+        <IconCloud images={images} />
       </div>
     </div>
   );

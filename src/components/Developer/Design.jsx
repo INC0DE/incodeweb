@@ -8,7 +8,7 @@ const Design = () => {
         <Image className="scale-100" src={image1} width="100%" />
       </div>
 
-      <div className="space-y-3 content-center lg:w-1/2 ">
+      <div className="content-center space-y-3 lg:w-1/2 ">
         <h1 className="text-6xl">Diseño</h1>
         <h1 className="font-bold text-5xl">Web.</h1>
 

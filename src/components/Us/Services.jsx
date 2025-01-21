@@ -7,11 +7,11 @@ import { AnimatedListDemo } from "./List";
 const Services = () => {
   return (
     <div className="">
-      <div className="bg-white content-center sm:h-60 py-5">
-        <h1 className="text-3xl text-gray font-serif justify-self-center sm:text-4xl">
+      <div className="content-center bg-white sm:h-60 py-5">
+        <h1 className="justify-self-center text-3xl text-gray font-serif  sm:text-4xl">
           Nuestros
         </h1>
-        <h1 className="text-5xl font-serif justify-self-center sm:text-7xl">
+        <h1 className="justify-self-center text-5xl font-serif sm:text-7xl">
           servicios.
         </h1>
       </div>
@@ -33,11 +33,10 @@ const Services = () => {
 
       <div className="max-h-full grid h-96 grid-rows-4 grid-flow-col gap-3 py-10 px-3">
         <Card
-          className="flex row-span-2  p-10 bg-gradient-to-r
+          className="flex justify-center row-span-2  p-10 bg-gradient-to-r
          from-white
           via-gray-200
           to-gray-400
-          justify-center
           md:row-span-2 col-span-2
           "
           isHoverable

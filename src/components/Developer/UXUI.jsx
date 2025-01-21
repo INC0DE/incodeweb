@@ -55,7 +55,7 @@ const UXUI = () => {
         <div className="self-center">
           <h1 className="text-7xl">UX</h1>
         </div>
-        <div className="space-y-5 justify-items-center">
+        <div className="justify-items-center space-y-5">
           <h1 className="text-lg text-gold">
             (User Experience - Experiencia de Usuario)
           </h1>
@@ -94,7 +94,7 @@ const UXUI = () => {
         <div className="self-center">
           <h1 className="text-7xl">UI</h1>
         </div>
-        <div className="space-y-5 justify-items-center">
+        <div className="justify-items-center space-y-5">
           <h1 className="text-lg text-gold ">
             (User Interface - Interfaz de Usuario)
           </h1>

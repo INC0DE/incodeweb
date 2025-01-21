@@ -8,7 +8,7 @@ import ContactMk from "../components/Marketing/ContactMk";
 
 const Marketing = () => {
   return (
-    <div className="justify-items-center">
+    <div className="">
       <Hero />
       <Introduction />
       <ManagerInfo />

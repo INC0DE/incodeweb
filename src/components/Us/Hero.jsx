@@ -3,7 +3,7 @@ import { hero } from "../../assets";
 
 const Hero = () => {
   return (
-    <div className="h-96 w-full p-5 bg-white content-center rounded-large md:flex lg:p-10  ">
+    <div className="content-center h-96 w-full p-5 bg-white  rounded-large md:flex lg:p-10  ">
       <div className="self-center md:w-1/2">
         <h1 className="text-4xl font-medium mb-3 sm:text-6xl">
           El primer paso digital es con

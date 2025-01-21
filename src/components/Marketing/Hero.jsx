@@ -3,11 +3,13 @@ import { heromark } from "../../assets";
 
 const Hero = () => {
   return (
-    <div className="max-h-screen w-full p-3 bg-white content-center rounded-large  sm:p-20 h-96 lg:flex">
-       <div className=" self-center space-y-2 md:w-1/2 xl:justify-items-center">
+    <div className="content-center max-h-screen w-full p-3 bg-white rounded-large  sm:p-20 h-96 lg:flex">
+      <div className=" self-center space-y-2 md:w-1/2 xl:justify-items-center">
         <div className="flex space-x-2 ">
           <h1 className="justify-center text-5xl">Marketing</h1>
-          <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl">digital</h1>
+          <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl">
+            digital
+          </h1>
         </div>
         <h1 className="text-3xl text-gold sm:text-4xl">Service.</h1>
       </div>

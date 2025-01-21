@@ -1,4 +1,4 @@
-import { Card} from "@nextui-org/card";
+import { Card } from "@nextui-org/card";
 
 const WeDo = () => {
   return (
@@ -9,9 +9,12 @@ const WeDo = () => {
       </div>
 
       <div className="max-h-full gap-5 grid lg:grid-cols-4 ">
-        <Card className="col-span-1 p-10 justify-center items-center" isHoverable>
+        <Card
+          className="justify-center items-center col-span-1 p-10 "
+          isHoverable
+        >
           <div className="flex space-x-5">
-            <div className="text-8xl text-gold self-center ">1</div>
+            <div className="self-center text-8xl text-gold ">1</div>
             <div>
               <h1 className="text-2xl">Manejo de redes sociales.</h1>
               <ul className="list-disc">
@@ -21,9 +24,12 @@ const WeDo = () => {
             </div>
           </div>
         </Card>
-        <Card className="col-span-1 p-10 justify-center items-center" isHoverable>
+        <Card
+          className="justify-center items-center col-span-1 p-10"
+          isHoverable
+        >
           <div className="flex space-x-5">
-            <div className="text-8xl text-gold self-center ">2</div>
+            <div className="self-center  text-8xl text-gold">2</div>
             <div>
               <h1 className="text-2xl">Estrategia del contenido.</h1>
               <ul className="list-disc">
@@ -33,9 +39,12 @@ const WeDo = () => {
             </div>
           </div>
         </Card>
-        <Card className="col-span-1 p-10 justify-center items-center" isHoverable>
+        <Card
+          className="justify-center items-center col-span-1 p-10"
+          isHoverable
+        >
           <div className="flex space-x-5">
-            <div className="text-8xl text-gold self-center ">3</div>
+            <div className="self-center text-8xl text-gold ">3</div>
             <div>
               <h1 className="text-2xl">Creador de diseño digital.</h1>
               <ul className="list-disc">
@@ -45,9 +54,12 @@ const WeDo = () => {
             </div>
           </div>
         </Card>
-        <Card className="col-span-1 p-10 justify-center items-center" isHoverable>
+        <Card
+          className="justify-center items-center col-span-1 p-10"
+          isHoverable
+        >
           <div className="flex space-x-5">
-            <div className="text-8xl text-gold self-center ">4</div>
+            <div className="self-center  text-8xl text-gold ">4</div>
             <div>
               <h1 className="text-2xl">Creador Digital Fotográfico </h1>
               <ul className="list-disc">

@@ -5,11 +5,11 @@ import { IoLogoJavascript } from "react-icons/io5";
 const Thechnologies = () => {
   return (
     <div className="">
-      <div className="h-56 bg-white content-center">
-        <h1 className="text-3xl text-gray font-serif justify-self-center md:text-4xl">
+      <div className="content-center h-56 bg-white">
+        <h1 className="justify-self-center text-3xl text-gray font-serif  md:text-4xl">
           Nuestras
         </h1>
-        <h1 className="text-5xl font-serif justify-self-center md:text-7xl">
+        <h1 className="justify-self-center text-5xl font-serif md:text-7xl">
           Tecnologías.
         </h1>
       </div>

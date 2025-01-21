@@ -3,7 +3,7 @@ import React from "react";
 const ManagerInfo = () => {
   return (
     <div className="hidden md:flex h-60 p-5 bg-white">
-      <div className="w-2/3 lg:w-1/2 px-5 content-center">
+      <div className="content-center w-2/3 lg:w-1/2 px-5">
         <p className="text-justify">
           El community manager es el profesional encargado de gestionar y
           administrar las redes sociales de una marca o empresa. Nuestro labor
@@ -15,7 +15,7 @@ const ManagerInfo = () => {
         </p>
       </div>
       <div className="w-1/3 lg:w-1/2 content-center ">
-        <h1 className="text-5xl font-bold justify-self-end xl:justify-self-center">Community Manager.</h1>
+        <h1 className="justify-self-end text-5xl font-bold xl:justify-self-center">Community Manager.</h1>
       </div>
     </div>
   );

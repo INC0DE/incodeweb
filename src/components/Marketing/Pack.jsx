@@ -4,15 +4,15 @@ const Pack = () => {
   return (
     <div className="max-h-full p-10 space-y-16">
       <div className="justify-items-center">
-        <h1 className="text-4xl text-gray font-serif justify-self-center ">
+        <h1 className="justify-self-center text-4xl text-gray font-serif">
           Nuestros
         </h1>
-        <h1 className="text-6xl font-serif justify-self-center sm:text-7xl">
+        <h1 className="justify-self-center text-6xl font-serif sm:text-7xl">
           paquetes.
         </h1>
       </div>
 
-      <div className="space-y-10 justify-center xl:flex gap-5">
+      <div className="justify-center space-y-10 xl:flex gap-5">
         <Card
           className=" justify-center self-center p-6 xl:w-72 h-72 space-y-8"
           isHoverable

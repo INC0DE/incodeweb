@@ -5,7 +5,7 @@ import Contact from "../components/Us/Contact";
 
 const Us = () => {
   return (
-    <div className="justify-items-center">
+    <div className="">
       <Hero />
       <Whoare />
       <Services />
