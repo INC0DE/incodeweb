@@ -4,7 +4,7 @@ import FormAll from "../FormAll";
 
 const Contact = () => {
   return (
-    <div className="space-y-20 py-10">
+    <div className="space-y-20 py-10 min-w-max">
       <div className="justify-self-center">
         <h1 className="justify-self-center text-4xl text-gray">
           ¿Listo

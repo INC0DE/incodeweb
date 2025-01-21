@@ -4,7 +4,7 @@ import { incode } from ".././assets";
 
 const Footer = () => {
   return (
-    <div className="h-max-full max-w-full bg-white container flex sm:justify-between px-20 justify-center items-center gap-20 max-sm:flex-col">
+    <div className="h-max-full max-w-full bg-white container flex sm:justify-align justify-center items-center gap-20 max-sm:flex-col">
       <Image
         src={incode}
         width={200}

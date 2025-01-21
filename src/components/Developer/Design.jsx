@@ -3,7 +3,7 @@ import { image1 } from "../../assets";
 
 const Design = () => {
   return (
-    <div className=" h-96 p-10 lg:flex">
+    <div className="h-96 p-10 lg:flex">
       <div className="hidden self-center pr-10 lg:block w-1/2">
         <Image className="scale-100" src={image1} width="100%" />
       </div>
