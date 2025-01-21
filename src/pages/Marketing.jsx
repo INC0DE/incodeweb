@@ -8,14 +8,14 @@ import ContactMk from "../components/Marketing/ContactMk";
 
 const Marketing = () => {
   return (
-    <div>
+    <div className="justify-items-center">
       <Hero />
       <Introduction />
       <ManagerInfo />
-      <WeDo/>
-      <Digital/>
-      <Pack/>
-      <ContactMk/>
+      <WeDo />
+      <Digital />
+      <Pack />
+      <ContactMk />
     </div>
   );
 };

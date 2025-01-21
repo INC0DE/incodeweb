@@ -8,14 +8,14 @@ import ContactDev from "../components/Developer/ContactDev";
 
 const Developer = () => {
   return (
-    <div>
+    <div className="justify-items-center">
       <Hero />
       <Developtment />
       <Thechnologies />
       <MarqueeDemo />
       <Design />
       <UXUI />
-      <ContactDev/>
+      <ContactDev />
     </div>
   );
 };
