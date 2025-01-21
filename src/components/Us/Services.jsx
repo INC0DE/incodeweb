@@ -7,7 +7,7 @@ import { AnimatedListDemo } from "./List";
 const Services = () => {
   return (
     <div className="">
-      <div className="content-center sm:h-60 py-5">
+      <div className="content-center bg-whitelight sm:h-60 py-5">
         <h1 className="justify-self-center text-3xl text-gray font-serif  sm:text-4xl">
           Nuestros
         </h1>
@@ -33,10 +33,11 @@ const Services = () => {
 
       <div className="max-h-full grid h-96 grid-rows-4 grid-flow-col gap-3 py-10 px-3">
         <Card
-          className="flex justify-center row-span-2  p-10 bg-gradient-to-r
+          className="flex row-span-2  p-10 bg-gradient-to-r
          from-white
           via-gray-200
           to-gray-400
+          justify-center
           md:row-span-2 col-span-2
           "
           isHoverable
