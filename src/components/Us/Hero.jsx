@@ -13,7 +13,7 @@ const Hero = () => {
           Potenciando tu marca.
         </p>
       </div>
-      <div className="self-center  md:w-1/2">
+      <div className="self-center  md:self-end">
         <Image alt="Mac" src={hero} width={1000} />
       </div>
     </div>
