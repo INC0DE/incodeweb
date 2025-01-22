@@ -10,7 +10,7 @@ const Whoare = () => {
 
       <div className="content-center space-y-20 p-5 lg:w-2/3 pr-5">
         <div>
-          <h1 className="mb-3 text-4xl md:text-6xl ">¿Quiénes somos?</h1>
+          <h1 className="mb-3 text-3xl md:text-4xl ">¿Quiénes somos?</h1>
           <p className=" text-gray text-lg">
             Somos una empresa tecnológica enfocada en gestionar los productos
             digitales para tu negocio. Especializándonos en crear páginas web

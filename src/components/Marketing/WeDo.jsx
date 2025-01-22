@@ -2,7 +2,7 @@ import { Card } from "@nextui-org/card";
 
 const WeDo = () => {
   return (
-    <div className="max-h-full space-y-10 py-10 px-5 lg:h-80 content-center">
+    <div className="max-h-full bg-white space-y-10 py-10 px-5 lg:h-80 content-center">
       <div className="flex flex-col items-center">
         <h1 className="text-gray">El puente entre la marca y audiencia.</h1>
         <h1 className="text-5xl text-gold md:text-6xl">¿Qué hacemos por ti?</h1>

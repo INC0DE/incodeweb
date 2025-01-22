@@ -2,7 +2,7 @@ import { Card } from "@nextui-org/card";
 
 const Pack = () => {
   return (
-    <div className="max-h-full p-10 space-y-16">
+    <div className="max-h-full p-10 space-y-16 ">
       <div className="text-center">
         <h1 className="text-4xl text-gray font-serif">Nuestros</h1>
         <h1 className="text-6xl font-serif sm:text-7xl">paquetes.</h1>
