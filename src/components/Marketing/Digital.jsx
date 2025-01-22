@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { Card, Image } from "@nextui-org/react";
 import { designcel, marketingvideo } from "../../assets";
 import ReactPlayer from "react-player";
@@ -5,7 +6,12 @@ import ReactPlayer from "react-player";
 const Digital = () => {
   return (
     <div className="max-h-full">
-      <div className="max-h-full grid gap-3 grid-rows-4 grid-flow-col pt-10 pb-5 px-3">
+      <motion.div
+        className="max-h-full grid gap-3 grid-rows-4 grid-flow-col pt-10 pb-5 px-3"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3, type: "spring", stiffness: 100 }}
+      >
         <Card
           className="hidden xl:block items-center justify-items-center row-span-4 col-span-1"
           isHoverable
@@ -70,7 +76,7 @@ const Digital = () => {
             </p>
           </div>
         </Card>
-      </div>
+      </motion.div>
 
       <div className="justify-self-center xl:hidden">
         <Image

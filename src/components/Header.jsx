@@ -17,6 +17,7 @@ import {
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const menuItems = [
     {
       item: "Inicio",
@@ -33,10 +34,7 @@ const Header = () => {
   ];
 
   return (
-    <Navbar
-      shouldHideOnScroll
-      onMenuOpenChange={setIsMenuOpen}
-    >
+    <Navbar shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -102,7 +100,7 @@ const Header = () => {
               size="lg"
             >
               <div className="p-10">
-                <p className="text-6xl text-gold">{item.item}</p>
+                <p className="text-5xl text-gold">{item.item}</p>
               </div>
             </Link>
           </NavbarMenuItem>

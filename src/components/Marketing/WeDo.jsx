@@ -1,14 +1,26 @@
 import { Card } from "@nextui-org/card";
+import { motion } from "framer-motion";
 
 const WeDo = () => {
   return (
     <div className="max-h-full bg-white space-y-10 py-10 px-5 lg:h-80 content-center">
-      <div className="flex flex-col items-center">
+      <motion.div
+        className="flex flex-col items-center"
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1, type: "spring", stiffness: 80 }}
+      >
         <h1 className="text-gray">El puente entre la marca y audiencia.</h1>
         <h1 className="text-5xl text-gold md:text-6xl">¿Qué hacemos por ti?</h1>
-      </div>
+      </motion.div>
 
-      <div className="max-h-full gap-5 grid lg:grid-cols-4 ">
+      <motion.div
+        className="max-h-full gap-5 grid lg:grid-cols-4 "
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3, type: "spring", stiffness: 100 }}
+      >
         <Card
           className="justify-center items-center col-span-1 p-10 "
           isHoverable
@@ -69,7 +81,7 @@ const WeDo = () => {
             </div>
           </div>
         </Card>
-      </div>
+      </motion.div>
     </div>
   );
 };

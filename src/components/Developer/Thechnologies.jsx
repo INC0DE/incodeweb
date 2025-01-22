@@ -1,16 +1,37 @@
 import { Card } from "@nextui-org/react";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 const Thechnologies = () => {
   return (
     <div className="">
       <div className="flex flex-col items-center justify-center h-56 bg-white">
-        <h1 className="text-3xl text-gray font-serif md:text-4xl">Nuestras</h1>
-        <h1 className="text-5xl font-serif md:text-7xl">Tecnologías.</h1>
+        <motion.h1
+          className="text-3xl text-gray font-serif md:text-4xl"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          Nuestras
+        </motion.h1>
+
+        <motion.h1
+          className="text-5xl font-serif md:text-7xl"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0 }}
+        >
+          Tecnologías.
+        </motion.h1>
       </div>
 
-      <div className="grid max-h-full gap-5 lg:grid-cols-3 grid-rows-4 py-10 px-3">
+      <motion.div
+        className="grid max-h-full gap-5 lg:grid-cols-3 grid-rows-4 py-10 px-3"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3, type: "spring", stiffness: 100 }}
+       >
         <Card
           className="flex col-span-1 row-span-4 p-8 hover:bg-gradient-to-t from-orange via-white to-white"
           isPressable
@@ -91,7 +112,7 @@ const Thechnologies = () => {
             <IoLogoCss3 className="w-24 h-20" />
           </div>
         </Card>
-      </div>
+      </motion.div>
     </div>
   );
 };

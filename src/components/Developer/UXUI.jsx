@@ -44,7 +44,12 @@ const UXUI = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   return (
-    <div className="grid max-h-full gap-5 lg:grid-cols-2 py-10 px-3">
+    <motion.div
+      className="grid max-h-full gap-5 lg:grid-cols-2 py-10 px-3"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 3, type: "spring", stiffness: 100 }}
+    >
       <Card
         className={`col-span-1 p-10 space-y-10 ${
           darkMode
@@ -127,7 +132,7 @@ const UXUI = () => {
           </div>
         </div>
       </Card>
-    </div>
+    </motion.div>
   );
 };
 

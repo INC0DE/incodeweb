@@ -1,14 +1,35 @@
 import { Card } from "@nextui-org/card";
+import { motion } from "framer-motion";
 
 const Pack = () => {
   return (
     <div className="max-h-full p-10 space-y-16 ">
-      <div className="text-center">
-        <h1 className="text-4xl text-gray font-serif">Nuestros</h1>
-        <h1 className="text-6xl font-serif sm:text-7xl">paquetes.</h1>
+      <div className="flex flex-col items-center justify-center">
+        <motion.h1
+          className="text-3xl text-gray font-serif md:text-4xl"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          Nuestros
+        </motion.h1>
+
+        <motion.h1
+          className="text-5xl font-serif md:text-7xl"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0 }}
+        >
+          Paquetes.
+        </motion.h1>
       </div>
 
-      <div className="xl:flex gap-5 justify-center space-y-10 xl:space-y-0">
+      <motion.div
+        className="xl:flex gap-5 justify-center space-y-10 xl:space-y-0"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3, type: "spring", stiffness: 100 }}
+      >
         <Card
           className="flex flex-col items-center justify-center p-6 xl:w-72 h-72 space-y-8"
           isHoverable
@@ -70,7 +91,7 @@ const Pack = () => {
             </ul>
           </div>
         </Card>
-      </div>
+      </motion.div>
     </div>
   );
 };
