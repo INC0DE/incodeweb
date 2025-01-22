@@ -7,7 +7,7 @@ import { AnimatedListDemo } from "./List";
 const Services = () => {
   return (
     <div className="">
-      <div className="content-center bg-whitelight sm:h-60 py-5">
+      <div className="flex flex-col items-center bg-whitelight sm:h-60 py-5">
         <h1 className="justify-self-center text-3xl text-gray font-serif  sm:text-4xl">
           Nuestros
         </h1>

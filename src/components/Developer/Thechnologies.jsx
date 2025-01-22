@@ -1,17 +1,13 @@
-import { Card} from "@nextui-org/react";
+import { Card } from "@nextui-org/react";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 
 const Thechnologies = () => {
   return (
     <div className="">
-      <div className="content-center h-56 bg-white">
-        <h1 className="justify-self-center text-3xl text-gray font-serif  md:text-4xl">
-          Nuestras
-        </h1>
-        <h1 className="justify-self-center text-5xl font-serif md:text-7xl">
-          Tecnologías.
-        </h1>
+      <div className="flex flex-col items-center justify-center h-56 bg-white">
+        <h1 className="text-3xl text-gray font-serif md:text-4xl">Nuestras</h1>
+        <h1 className="text-5xl font-serif md:text-7xl">Tecnologías.</h1>
       </div>
 
       <div className="grid max-h-full gap-5 lg:grid-cols-3 grid-rows-4 py-10 px-3">

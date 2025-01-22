@@ -38,11 +38,10 @@ const Design = () => {
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
   );
   return (
-    <div className="justify-center max-h-full  p-10 lg:h-80 xl:flex">
-      <div className="content-center space-y-5  xl:w-2/3 ">
+    <div className="flex flex-col xl:flex-row justify-between max-h-full p-10 lg:h-80">
+      <div className="flex flex-col justify-center space-y-5 xl:w-2/3">
         <h1 className="text-6xl">Desarrollo</h1>
         <h1 className="font-bold text-5xl">Web.</h1>
-
         <p className="text-lg max-h-54 text-gray sm:text-2xl xl:text-justify">
           Nos encargamos de diseñar, construir, implementar, mantener sitios y
           aplicaciones web para clientes, con el objetivo de crear soluciones en
@@ -51,7 +50,8 @@ const Design = () => {
           así como también una escalabilidad y soporte de página.
         </p>
       </div>
-      <div className="justify-self-center self-center rounded-2xl p-10 xl:w-1/2 justify-items-end ">
+
+      <div className="flex justify-center items-center rounded-2xl p-10 xl:w-1/2">
         <IconCloud images={images} />
       </div>
     </div>

@@ -3,7 +3,7 @@ import { Card } from "@nextui-org/card";
 const WeDo = () => {
   return (
     <div className="max-h-full space-y-10 py-10 px-5 lg:h-80 content-center">
-      <div className="justify-items-center">
+      <div className="flex flex-col items-center">
         <h1 className="text-gray">El puente entre la marca y audiencia.</h1>
         <h1 className="text-5xl text-gold md:text-6xl">¿Qué hacemos por ti?</h1>
       </div>
@@ -13,7 +13,7 @@ const WeDo = () => {
           className="justify-center items-center col-span-1 p-10 "
           isHoverable
         >
-          <div className="flex space-x-5">
+          <div className="flex space-x-8">
             <div className="self-center text-8xl text-gold ">1</div>
             <div>
               <h1 className="text-2xl">Manejo de redes sociales.</h1>
@@ -28,7 +28,7 @@ const WeDo = () => {
           className="justify-center items-center col-span-1 p-10"
           isHoverable
         >
-          <div className="flex space-x-5">
+          <div className="flex space-x-8">
             <div className="self-center  text-8xl text-gold">2</div>
             <div>
               <h1 className="text-2xl">Estrategia del contenido.</h1>
@@ -43,7 +43,7 @@ const WeDo = () => {
           className="justify-center items-center col-span-1 p-10"
           isHoverable
         >
-          <div className="flex space-x-5">
+          <div className="flex space-x-8">
             <div className="self-center text-8xl text-gold ">3</div>
             <div>
               <h1 className="text-2xl">Creador de diseño digital.</h1>
@@ -58,7 +58,7 @@ const WeDo = () => {
           className="justify-center items-center col-span-1 p-10"
           isHoverable
         >
-          <div className="flex space-x-5">
+          <div className="flex space-x-8">
             <div className="self-center  text-8xl text-gold ">4</div>
             <div>
               <h1 className="text-2xl">Creador Digital Fotográfico </h1>

@@ -52,14 +52,14 @@ const UXUI = () => {
             : "bg-gradient-to-r from-white via-gray-200 to-gray-400 text-black"
         }`}
       >
-        <div className="self-center">
-          <h1 className="text-7xl">UX</h1>
-        </div>
-        <div className="justify-items-center space-y-5">
-          <h1 className="text-lg text-gold">
+        <div className="flex flex-col items-center space-y-5">
+          <div className="self-center">
+            <h1 className="text-7xl">UX</h1>
+          </div>
+          <h1 className="text-lg text-gold text-center">
             (User Experience - Experiencia de Usuario)
           </h1>
-          <p className="leading-relaxed xl:text-justify ">
+          <p className="leading-relaxed xl:text-justify">
             Se refiere a cómo un usuario interactúa y experimenta un producto,
             sitio web o aplicación. Hace que la experiencia sea intuitiva,
             fluida, agradable y satisfactoria. Enfoca aspectos como la
@@ -91,14 +91,14 @@ const UXUI = () => {
           to-gray-400"
         isHoverable
       >
-        <div className="self-center">
-          <h1 className="text-7xl">UI</h1>
-        </div>
-        <div className="justify-items-center space-y-5">
-          <h1 className="text-lg text-gold ">
+        <div className="flex flex-col items-center space-y-5">
+          <div>
+            <h1 className="text-7xl">UI</h1>
+          </div>
+          <h1 className="text-lg text-gold text-center">
             (User Interface - Interfaz de Usuario)
           </h1>
-          <p className="leading-relaxed xl:text-justify">
+          <p className="leading-relaxed text-center xl:text-justify">
             Es la parte visual y gráfica con la que el usuario interactúa
             directamente. Hace que el producto sea atractivo visualmente y
             consistente. Incluye elementos como botones, íconos, colores,
