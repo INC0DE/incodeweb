@@ -25,10 +25,12 @@ const Header = () => {
     },
     {
       item: "Website",
+      services: "Servicio",
       to: "/Website",
     },
     {
       item: "Marketing",
+      services: "Servicio",
       to: "/Marketing",
     },
   ];
@@ -93,13 +95,9 @@ const Header = () => {
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              className="w-full"
-              color="foreground"
-              to={item.to}
-              size="lg"
-            >
+            <Link className="w-full" color="foreground" to={item.to} size="lg">
               <div className="p-10">
+                <p>{item.services}</p>
                 <p className="text-5xl text-gold">{item.item}</p>
               </div>
             </Link>
