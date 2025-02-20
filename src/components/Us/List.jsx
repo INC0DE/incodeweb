@@ -18,7 +18,7 @@ let notifications = [
     color: "#FFB800",
   },
   {
-    name: "Eve Lopez.",
+    name: "Lizbeth Escobar.",
     description:
       "Estoy muy satisfecho con INCODE. Mi negocio ha escalado de forma impresionante.",
     time: "5m ago",

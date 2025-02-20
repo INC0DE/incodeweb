@@ -13,7 +13,6 @@ const Marketing = () => {
       <Introduction />
       <ManagerInfo />
       <Digital />
-      <Pack />
       <WeDo />
       <ContactMk />
     </div>
